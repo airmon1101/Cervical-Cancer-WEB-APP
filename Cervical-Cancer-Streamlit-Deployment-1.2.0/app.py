@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = BASE_DIR / "models" / "cervical_cancer_image_classifier.h5"
 FRONTEND_DIR = BASE_DIR / "frontend"
 IMG_SIZE = (256, 256)
-CLASS_LABELS = ["Negative", "Positive", "Suspected"]
+CLASS_LABELS = ["Positive", "Negative", "Suspected"]
 
 st.set_page_config(
     page_title="Cytoscan — Cervical Cytology Screening Assist",
